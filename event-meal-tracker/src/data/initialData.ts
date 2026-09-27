@@ -68,16 +68,16 @@ export const INITIAL_USERS: AppUser[] = [
     id: 'user_5',
     name: 'Gokul',
     usn: 'VOL005',
-    passwordHash: 'Treasurer',
-    role: 'Volunteer',
+    passwordHash: 'eventpass',
+    role: 'Treasurer',
     createdAt: new Date().toISOString()
   },
   {
     id: 'user_6',
     name: 'Tanushree',
     usn: 'VOL006',
-    passwordHash: 'Execom',
-    role: 'Volunteer',
+    passwordHash: 'eventpass',
+    role: 'Execom',
     createdAt: new Date().toISOString()
   }
 ];
